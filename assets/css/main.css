@@ -138,3 +138,42 @@ a {
     font-size: 24px;
     line-height: 95%;
 }
+
+.inform {
+    padding: 70px 0 135px;
+}
+.inform__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 118.2%;
+    margin-bottom: 30px;
+}
+.inform__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 27px;
+}
+.inform__item {
+    background: #5F7ADB;
+    border-radius: 26px;
+    padding: 58px 26px 83px;
+    text-align: center;
+}
+.inform__item_rotate {
+    transform: rotate(6.26deg);
+}
+.inform__item-img {
+    margin-bottom: 31px;
+}
+.inform__item-title {
+    margin-bottom: 21px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 118.2%;
+}
+.inform__item-descr {
+    font-size: 23px;
+    line-height: 118.2%;
+    text-align: center;
+}
