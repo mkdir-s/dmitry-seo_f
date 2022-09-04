@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #26292B;
+    font-family: 'futuraPT';
+    font-weight: 400;
+    color: #ECE6CE;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.wrapper {
+    display: flex;
+}
+.jcsb {
+    justify-content: space-between;
+}
+.aic {
+    align-items: center;
+}
+
+.header {
+    padding-top: 50px;
+}
+.header__logo-left {
+    font-family: 'Stolzl';
+    font-size: 30px;
+    line-height: 37px;
+    color: #ECE6CE;
+    padding-right: 17px;
+    border-right: 1px solid #ECE6CE;
+    margin-right: 20px;
+}
+.header__logo-right {
+    font-size: 20px;
+    line-height: 26px;
+}
+.header__phone {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.intro {
+    padding-top: 6%;
+    padding-bottom: 90px;
+    background-image: url(../images/intro-img.png);
+    background-repeat: no-repeat;
+    background-position: right 85%;
+}
+.intro__title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 69px;
+    max-width: 630px;
+}
+.intro__subtitle {
+    font-size: 40px;
+    line-height: 51px;
+    max-width: 630px;
+    margin-bottom: 50px;
+}
+.intro__left {
+    margin-right: 80px;
+}
+.intro__left-button {
+    padding: 37px 55px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 25px;
+    border: 1px solid #5F7ADB;
+    border-radius: 15px;
+    display: block;
+    margin-bottom: 7px;
+}
+.intro__left-subtitle {
+    font-size: 24px;
+    line-height: 101.2%;
+    text-align: center;
+    width: 290px;
+    margin: 0 auto;
+}
+.intro__left-subtitle span {
+    font-weight: 700;
+}
+
+.intro__right {
+    padding-top: 17px;
+}
+.intro__right-text {
+    width: 365px;
+    font-size: 24px;
+    line-height: 102.2%;
+    padding-left: 55px;
+    position: relative;
+}
+.intro__right-text::before {
+    content: '';
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-image: url(../images/discount-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
