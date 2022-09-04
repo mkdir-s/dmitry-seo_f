@@ -396,3 +396,61 @@ a {
     line-height: 101.2%;
     text-align: center;
 }
+
+.tarifs {
+    padding-bottom: 165px;
+}
+.tarifs__title {
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 118.2%;
+    text-align: center;
+}
+.tarifs__subtitle {
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    color: #ECE6CE;
+    max-width: 722px;
+    margin: 0 auto 45px;
+}
+.tarifs__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 34px;
+}
+.tarifs__item {
+    background: #A2B2EE;
+    border-radius: 26px;
+    text-align: center;
+    padding: 50px 23px 37px;
+}
+.tarifs__item-title {
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 118.2%;
+    color: #26292B;
+    margin-bottom: 80px;
+}
+.tarifs__item-descr {
+    font-size: 24px;
+    line-height: 31px;
+    color: #26292B;
+    margin-bottom: 33px;
+}
+.tarifs__item-price {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 118.2%;
+    color: #26292B;
+    margin-bottom: 64px;
+}
+.tarifs__item-button {
+    padding: 23px 63px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    background: #5F7ADB;
+    border-radius: 26px;
+}
