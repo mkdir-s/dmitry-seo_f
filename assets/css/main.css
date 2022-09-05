@@ -530,3 +530,72 @@ a {
     border-radius: 50%;
     font-weight: 900;
 }
+
+.cases {
+    padding: 55px 0 7px;
+    background-color: #fff;
+}
+.cases__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 118.2%;
+    color: #26292B;
+}
+.cases__subtitle {
+    font-size: 24px;
+    line-height: 120.7%;
+    color: #26292B;
+    margin-bottom: 40px;
+    width: 300px;
+}
+.cases__subtitle span {
+    background: #5F7ADB;
+    border-radius: 10px;   
+    padding: 3px; 
+}
+.cases__swiper {
+    max-width: 1020px;
+}
+.cases__item {
+    background-image: url(../images/cases-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    max-width: 525px;
+    width: 100%;
+    height: 322px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.cases__item-title {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 99.2%;
+    margin-bottom: 4px;
+    text-align: center;
+}
+.cases__item-title span {
+    font-size: 14px;
+    line-height: 120.7%;
+}
+.cases__swiper-button-prev.swiper-button-prev {
+    top: 90%;
+    left: 43%;
+}
+.cases__swiper-button-next.swiper-button-next {
+    top: 90%;
+    right: 43%;
+}
+.cases__swiper-button-prev.swiper-button-prev,
+.cases__swiper-button-next.swiper-button-next {
+    background: #5F7ADB;
+    color: #fff;
+    padding: 28px;
+    font-size: 40px;
+    border-radius: 50%;
+    font-weight: 900;
+}
