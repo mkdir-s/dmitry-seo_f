@@ -65,6 +65,9 @@ a {
     background-repeat: no-repeat;
     background-position: right 85%;
 }
+.intro_mobile {
+    display: none;
+}
 .intro__title {
     font-weight: 500;
     font-size: 60px;
@@ -565,6 +568,7 @@ a {
 }
 .cases__subtitle span {
     background: #5F7ADB;
+    color: #fff;
     border-radius: 10px;   
     padding: 3px; 
 }

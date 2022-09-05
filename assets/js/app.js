@@ -1,7 +1,5 @@
 const swiper1 = new Swiper('.services__swiper', {
     loop: true,
-    slidesPerView: 5,
-    spaceBetween: 30,
     pagination: {
       el: '.services__swiper-pagination',
     },
@@ -9,18 +7,49 @@ const swiper1 = new Swiper('.services__swiper', {
       nextEl: '.services__swiper-button-next',
       prevEl: '.services__swiper-button-prev',
     },
-  });
+    breakpoints: {
+      // when window width is >= 320px
+      757: {
+        slidesPerView: 5,
+        spaceBetween: 30,
+      },
+      480: {
+        slidesPerView: 4.5,
+        spaceBetween: 20,
+      },
+      320: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      }
+    }
+});
   
   const swiper2 = new Swiper('.cases__swiper', {
     loop: true,
-    slidesPerView: 2,
-    spaceBetween: 27,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      757: {
+        slidesPerView: 2,
+        spaceBetween: 27,
+      },
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      }
+    }
   });
 
+  
+
+  const swiper3 = new Swiper('.tarifs__items_mobile', {
+    navigation: {
+      nextEl: '.tarifs-button-next',
+      prevEl: '.tarifs-button-prev',
+    },
+  });
   
 
 document.querySelectorAll('.questions__item-trigger').forEach(item => {
