@@ -270,6 +270,9 @@ a {
     position: relative;
     padding-bottom: 100px;
 }
+.steps_mobile {
+    display: none;
+}
 .steps__title {
     font-weight: 500;
     font-size: 65px;
@@ -437,6 +440,9 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 34px;
+}
+.tarifs__items_mobile {
+    display: none;
 }
 .tarifs__item {
     background: #A2B2EE;
@@ -735,6 +741,7 @@ a {
     border-radius: 44px;
     border: none;
     margin-bottom: 3px;
+    cursor: pointer;
 }
 .form__form-subbutton {
     font-size: 16px;

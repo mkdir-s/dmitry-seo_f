@@ -1,9 +1,40 @@
+@media (max-width: 1460px) {
+    .steps__items {
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 60px;
+    }
+}
 @media (max-width: 1220px) {
     .intro {
         background: none;
     }
+    .me {
+        background-position: -20% 65%;
+        background-size: 38%;
+    }
+    .me__wrapper {
+        max-width: 540px;
+    }
+    .tarifs__item-button {
+        padding: 23px 27px;
+    }
+    .tarifs__item {
+        padding: 50px 0px 37px;
+    }
+    .services__swiper-button-prev.swiper-button-prev {
+        right: 30%;
+    }
+    .services__swiper-pagination .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        left: -35%;
+    }
 }
 @media (max-width: 755px) {
+    .tarifs__items_mobile {
+        display: block;
+    }
+    .steps_mobile {
+        display: block;
+    }
     .intro {
         display: none;
     }
@@ -237,5 +268,155 @@
     }
     .questions__item-img {
         width: 8%;
+    }
+    .inform__items {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .inform__item {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .inform__item-descr {
+        font-size: 20px;
+    }
+    .tarifs-button-prev.swiper-button-prev {
+        left: 35%;
+    }
+    .tarifs-button-next.swiper-button-next {
+        left: 55%;
+    }
+    .services__swiper-button-prev.swiper-button-prev {
+        right: 37%;
+    }
+    .services__swiper-pagination .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        left: -25%;
+    }
+}
+
+@media (max-width: 650px) {
+    .me {
+        background-position: -11% 52%;
+        background-size: 27%;
+    }
+}
+@media (max-width: 520px) {
+    .steps__item_mobile {
+        padding: 8px 35px;
+    }
+    .steps__item-text_mobile {
+        font-size: 26px;
+    }
+    .wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .header__logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .header {
+        padding-bottom: 50px;
+    }
+    .header__logo-left {
+        border: none;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .intro__title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .intro__right-text {
+        font-size: 19px;
+    }
+    .intro__left-button {
+        padding: 25px 50px;
+        font-size: 25px;
+    }
+    .intro__left {
+        margin-right: 0;
+    }
+    .about__item.wrapper {
+        align-items: center;
+    }
+    .about__item {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .inform__item {
+        padding: 25px 10px 37px;
+    }
+    .inform__item-img {
+        margin-bottom: 15px;
+    }
+    .inform {
+        padding: 45px 0 70px;
+    }
+    .me {
+        background: #fff;
+    }
+    .me__wrapper {
+        margin-left: 0;
+    }
+    .cases__swiper-button-prev.swiper-button-prev {
+        left: 30%;
+    }
+    .cases__swiper-button-next.swiper-button-next {
+        right: 30%;
+    }
+    .cases__item-title {
+        left: 5%;
+    }
+    .cases__item {
+        margin-bottom: 35px;
+    }
+    .questions__item-trigger {
+        flex-direction: row;
+    }
+    .form__form-button {
+        padding: 20px 65px;
+        display: block;
+        margin: 0 auto;
+    }
+    .form__box {
+        padding: 47px 20px 57px;
+    }
+    .services__item {
+        padding: 27px 10px;
+    }
+}
+@media (max-width: 420px) {
+    .intro__title span::before {
+        display: none;
+    }
+    .intro__title {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .steps__button {
+        padding: 20px 35px;
+    }
+    .steps_mobile {
+        padding: 25px 0 60px;
+    }
+    .tarifs-button-prev.swiper-button-prev {
+        left: 30%;
+    }
+    .tarifs-button-next.swiper-button-next {
+        left: 60%;
+    }
+    .tarifs__item {
+        padding: 50px 15px 37px;
+    }
+    .services__swiper-button-prev.swiper-button-prev {
+        right: 27%;
+    }
+    .services__swiper-button-next.swiper-button-next {
+        right: 7%;
+    }
+    .cases__item-title span {
+        font-size: 11px;
+        display: block;
     }
 }
